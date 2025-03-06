@@ -1,5 +1,6 @@
 {
   "expo": {
+    
     "name": "myApp",
     "slug": "myApp",
     "version": "1.0.0",
@@ -7,6 +8,11 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "androidStatusBar": {
+      "hidden": true,
+      "translucent": true,
+      "backgroundColor": "transparent"
+    },
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -14,7 +20,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "transparent"
       }
     },
     "web": {
@@ -30,10 +36,11 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "transparent"
         }
       ],
-      "expo-speech-recognition"
+      "expo-speech-recognition",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
