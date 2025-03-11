@@ -24,7 +24,7 @@ vosk_model = Model(MODEL_DIR)
 print("Vosk model loaded successfully!")
 
 # Set up Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="api_key")
 
 # Helper function to detect foreign (English/French) words
 def contains_foreign_words(text):
